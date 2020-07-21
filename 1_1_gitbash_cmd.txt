@@ -1,0 +1,98 @@
+//This file contains commands of gitBash for class 1 week 1 of bootcamp
+//basicaly did the following
+
+
+
+kakwo@ayamkito MINGW64 ~							//make directory
+$ cd Documents									
+
+kakwo@ayamkito MINGW64 ~/Documents						//list directory
+$ ls										
+ Action_Required_-_NYS_DOL_Certification_for_B.pdf  'LabVIEW Data'/
+'comic books'/                                      'My Music'@
+'Custom Office Templates'/                          'My Pictures'@
+ Default.rdp                                        'My Videos'@
+ desktop.ini                                        'National Instruments'/
+ Downloads/                                          Screencast-O-Matic/
+ IoT/                                               'Sound recordings'/
+
+
+kakwo@ayamkito MINGW64 ~/Documents						//move to previous directory
+$ cd ..										
+
+kakwo@ayamkito MINGW64 ~
+$ cd documents
+
+kakwo@ayamkito MINGW64 ~/documents						//make a directory	
+$ mkdir Bootcamp								
+
+kakwo@ayamkito MINGW64 ~/documents
+$ cd bootcamp
+
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp
+$
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp
+$ mkdir firstwebsite
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp
+$ cd firstwebsite
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite
+$ touch index.html								//create an html file called index
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite			//open the file in Visual Studio code and write your code.
+$ code .									
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite			//initialize git so u can send your code online to github
+$ git init									
+Initialized empty Git repository in C:/Users/kakwo/Documents/Bootcamp/firstwebsite/.git/
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite (master)		//add the git file
+$ git add .
+
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite (master)		//commit file to your account
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'kakwo@ayamkito.(none)')
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite (master)		//first time users have to provide account details(destination)
+$   git config --global user.email "kakwotiga@yahoo.com"
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite (master)		//add origin and filename
+$ git remote add origin https://github.com/ayamkito/firstwebsite.git
+
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite (master)		//first time users have to run commit again
+$ git commit -m "first commit"
+[master (root-commit) da5a989] first commit
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite (master)		//push the origin to send the file online 
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ayamkito/firstwebsite.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+kakwo@ayamkito MINGW64 ~/documents/bootcamp/firstwebsite (master)		//done
+$

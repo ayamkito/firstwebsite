@@ -1,0 +1,60 @@
+.background{
+    background-color: rgba(61, 56, 56, 0.226);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 10px;
+}
+
+.heading1{
+    margin:auto;
+    text-align: center;
+    border-style: groove;
+    border-color: rgb(56, 32, 32);
+    background-color: rgb(18, 46, 82);
+    text-size-adjust: 20px;                                   
+}
+  
+.purple{
+    background-color: purple;
+    margin: 10px;
+}
+.pink{
+    background-color: pink;
+    margin: 10px;
+}
+.white{
+    background-color: white;
+    margin-left: 10px;
+    display: flex;
+    
+}
+.heading2{
+    border-style: ridge;
+    border-width: 90%;
+    border-color: coral;
+    margin: 30px;
+    
+}
+.pointer{
+    cursor: pointer;
+}
+
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.hover:hover{
+   background-color: lightgreen;
+}
+.lightblue{
+    background-color: lightblue;
+    width: 150px;
+    overflow:scroll;
+    
+}
+
+.pluspointer{
+    cursor: -webkit-grab;
+}
